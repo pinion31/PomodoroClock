@@ -1,0 +1,76 @@
+.bg {
+    background-color: black;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*height:500px;*/
+    /*margin-top: 150px;*/
+
+
+}
+
+
+
+.item {
+    width:50%;
+}
+
+#time {
+    text-align: center;
+    font-size: 6em;
+    margin: 0px auto;
+    background-color: gray;
+    color:white;
+}
+
+.title {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.changeTimer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.buttonOn {
+    text-align: center;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.buttonOff {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.timeChanger:hover {
+    cursor: pointer;
+}
+
