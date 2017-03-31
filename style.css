@@ -33,6 +33,15 @@ body, html {
     color:white;
 }
 
+@media (max-width: 400px) {
+
+    #time {
+
+        font-size: 4em;
+
+    }
+}
+
 .title {
     background-color: gray;
     color: white;
@@ -43,6 +52,7 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .button-row {
     display: flex;
@@ -74,3 +84,12 @@ body, html {
     cursor: pointer;
 }
 
+#session, #break {
+    font-size: 2em;
+}
+
+@media (min-width: 400px) {
+    #session, #break {
+        font-size: 3em;
+    }
+}
